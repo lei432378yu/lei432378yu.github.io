@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to host blogs with Github"
+title: "How to host blogs with GitHub"
 date: 2025-04-24
 categories: [How-tos]
 tags: [Work hacks]
