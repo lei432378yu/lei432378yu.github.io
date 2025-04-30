@@ -70,7 +70,7 @@ At the top of the `.md` file, type the following header
 layout: post
 title: "your post title"
 date: year-month-day
-categories: [you category]
+categories: [your category]
 tages: [your tag]
 ---
 ```
