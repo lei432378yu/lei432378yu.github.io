@@ -108,9 +108,16 @@ To start off, use `bundle show your_theme_name` to display the full filesystem p
   html <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script>
   <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ```
-The first line of the code snippet is for properly displaying the inline equation enclosed by `$ $`, while the second line is for displaying block equations enclosed by `$$ $$`. Now, we can test it by xxxxxx
+The first line of the code snippet is for properly displaying the inline equation enclosed by `$ $`, while the second line is for displaying block equations enclosed by `$$ $$`. Now, we can test both with the following. 
 
-The demo of inline equation with $z^2 = x^2 + y^2$. The demo of block equation with
+The demo of inline equation with `$z^2 = x^2 + y^2$` will yield $z^2 = x^2 + y^2$. The demo of block equation with
+
+```
+$$
+z^2 = x^2 + y^2
+$$
+```
+will yield
 
 $$
 z^2 = x^2 + y^2
@@ -137,7 +144,9 @@ git push origin main
 
 ## 5. Caveats
 <div style="text-align: justify; font-size: 18px" markdown="1">
-1. If the local Jekyll site cannot be rendered, please rerun `bundle exec jekyll serve` in the command terminal. 
+1. If the local Jekyll site cannot be rendered, please rerun `bundle exec jekyll serve` in the command terminal.
+2. If GitHub build failed after `git push origin main`, it might be caused by incorrect Markdown syntax used in the post. Check the build errors for clues. 
+3. The use of VPN may cause `Could not connect to server` error after `git push origin main`. If encountered, switch off VPN and try again. 
 </div>
 
 ## References
