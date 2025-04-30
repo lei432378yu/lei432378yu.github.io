@@ -52,8 +52,8 @@ The Youtube video [How to build your Blog for free on GitHub Pages using Jekyll]
 4. Clone the GitHub repository to the local drive using `git clone`.
 5. Open a Command Prompt (or Git terminal) and navigate to the repository GitHub_name.github.io. In the terminal, type code . to open the VS Code from the directory. Run `bundle` in the VS Code command terminal to install correct version of the gems needed for this project. The gems to be installed are saved in the `Gemfile` in the repository. 
 6. Use `bundle exec jekyll serve` to builds the Jekyll static site. The building process will give a server address, something like `Server address: http://127.0.0.1:5000/`. Open it and we will see the locally generated Jekyll site. 
-7. Write the first blog. Please refer to [Write the first blog](#write-the-first-blog) for detailed steps.
-8. Publish the blog to make it visible to the public. Please refer to [Publish the blog](#publish-the-blog) for details.
+7. Write the first blog. Please refer to [Write the first blog](#42-write-the-first-blog) for detailed steps.
+8. Publish the blog to make it visible to the public. Please refer to [Publish the blog](#43-publish-the-blog) for details.
 </div>
 
 ## 4.2. Write the first blog

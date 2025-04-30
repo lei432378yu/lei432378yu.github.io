@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: WLi's Blog # the main title
 
-tagline: Document learnings for life and work. # it will display as the subtitle
+tagline: Document learnings from life and work. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Cover topics ranging from programming to life, and share my learning notes and experiences.
