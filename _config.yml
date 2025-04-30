@@ -9,14 +9,14 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: WLi's learning notes # the main title
+title: WLi's Blog # the main title
 
-tagline: hello there, my personal blog # it will display as the subtitle
+tagline: Document learnings for life and work. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Cover topics ranging from programming to life, and share my learning notes and experiences.
@@ -26,23 +26,25 @@ description: >- # used by seo meta and the atom feed
 url: "https://lei432378yu.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: lei432378yu # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: mgeadvances # change to your Twitter username
+  card: summary # Twitter card type, can be 'summary' or 'summary_large_image'
+  # The default value is 'summary_large_image', which is recommended for most cases.
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Weidong Li
+  email: lei432378yu@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://x.com/Lei432378yu # change to your Twitter homepage
+    - https://github.com/lei432378yu # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/wli2014/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -88,7 +90,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: light # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
