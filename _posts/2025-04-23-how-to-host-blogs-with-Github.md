@@ -141,6 +141,6 @@ git push origin main
 </div>
 
 ## References
-1. [How to Install the Jekyll Static Site Generator on Windows](https://www.youtube.com/watch?v=semqYpqoY_k)
+1. [How to Install the Jekyll Static Site Generator on Windows](https://www.youtube.com/watch?v=semqYpqoY_k).
 2. [Jekyll posts](https://jekyllrb.com/docs/posts/)
 3. [How to build your Blog for free on GitHub Pages using Jekyll](https://www.youtube.com/watch?v=m1RYsmOMPLs)
