@@ -110,7 +110,7 @@ To start off, use `bundle show your_theme_name` to display the full filesystem p
 ```
 The first line of the code snippet is for properly displaying the inline equation enclosed by `$ $`, while the second line is for displaying block equations enclosed by `$$ $$`. Now, we can test both with the following. 
 
-The demo of inline equation with `$z^2 = x^2 + y^2$` will yield $z^2 = x^2 + y^2$. The demo of block equation with
+The demo of inline equation with `$z^2 = x^2 + y^2$` will yield \\(z^2 = x^2 + y^2\\). The demo of block equation with
 
 ```
 $$
@@ -119,9 +119,9 @@ $$
 ```
 will yield
 
-$$
+\\[
 z^2 = x^2 + y^2
-$$
+\\]
 
 </div>
 
