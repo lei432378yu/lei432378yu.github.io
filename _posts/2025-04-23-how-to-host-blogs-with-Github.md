@@ -96,22 +96,17 @@ One can refer to [Creating and highlighting code blocks](https://docs.github.com
 
 ### 4.2.4. Images
 Use `![title](path/example.png)` to embed images. 
+
 ### Insert links
 Use `[name](link)` to insert inline links. 
 
 ### 4.2.5. LaTeX equations
 <div style="text-align: justify; font-size: 18px" markdown="1">
-Jekyll does not have a native way to display LaTeX equations. To display LaTeX equations in a Jekyll post, we have to  use a JavaScript library like MathJax or KaTeX. These libraries render LaTeX code into mathematical expressions in web browser. We will go with MathJax. 
-
-To start off, use `bundle show your_theme_name` to display the full filesystem path where the Jekyll theme is installed. In this case, since we use the `jekyll-theme-chirpy` theme, type  `bundle show jekyll-theme-chirpy` in the command window. It will then return something like `c:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/jekyll-theme-chirpy-7.2.4`. Open the directory, under the subdirectory `_includes`, find the `head.html` file, and add the following two lines of code under the `<head>` section.
-
-```html
-  html <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } }); </script>
-  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+Since we are using the `jekyll-theme-chirpy` theme, set it up for LaTeX is straightforward. In the header of the post, add the following 
 ```
-The first line of the code snippet is for properly displaying the inline equation enclosed by `$ $`, while the second line is for displaying block equations enclosed by `$$ $$`. Now, we can test both with the following. 
-
-The demo of inline equation with `$z^2 = x^2 + y^2$` will yield \\(z^2 = x^2 + y^2\\). The demo of block equation with
+math: true
+```
+The test of inline equation with `$z^2 = x^2 + y^2$` will yield \\(z^2 = x^2 + y^2\\), and the block equation with
 
 ```
 $$
