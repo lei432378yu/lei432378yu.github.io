@@ -4,6 +4,7 @@ title: "How to host blogs with GitHub"
 date: 2025-04-24
 categories: [How-tos]
 tags: [Work hacks]
+math: true
 ---
 
 ## 1. Why I blog this?
