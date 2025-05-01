@@ -147,7 +147,7 @@ git push origin main
 <div style="text-align: justify; font-size: 18px" markdown="1">
 1. If the local Jekyll site cannot be rendered, please rerun `bundle exec jekyll serve` in the command terminal.
 2. If GitHub build failed after `git push origin main`, it might be caused by incorrect Markdown syntax used in the post. Check the build errors for clues. 
-3. The use of VPN may cause `Could not connect to server` error after `git push origin main`. If encountered, switch off VPN and try again. 
+
 </div>
 
 ## References
